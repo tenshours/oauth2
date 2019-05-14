@@ -1,0 +1,9 @@
+server:
+  port: 8080
+logging:
+  level:
+    org.springframework.security: debug
+security:
+  oauth2:
+    client:
+      registered-redirect-uri: http://localhost:8180/user
